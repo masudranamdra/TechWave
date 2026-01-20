@@ -129,7 +129,7 @@ body.open-sans {
 /* Header */
 
 #header {
-    background: url(/images/hero-bg.png);
+    background: url(../images/hero-bg.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +143,7 @@ body.open-sans {
 }
 
 .hero-logo-image {
-    background-image: url("../images/hero-bg.png");
+    background-image: url("../images/hero-circle.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
