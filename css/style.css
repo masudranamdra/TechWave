@@ -564,7 +564,7 @@ body.open-sans {
 .Featured-Episodes-section-card-a-hero-img {
     display: flex;
     gap: 24px;
-    background-color: #351165;
+    background: linear-gradient(180deg, #2d0b52, #1a032e);
     padding: 40px;
     border-radius: 12px;
     margin: 120px;
