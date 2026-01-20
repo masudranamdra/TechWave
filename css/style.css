@@ -30,7 +30,7 @@ body.open-sans {
     width: 100%;
     max-width: 1600px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0px 101px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -760,7 +760,7 @@ body.open-sans {
 /* footer  */
 
 #footer {
-    background: url(/images/footer-bg.png);
+    background: url(../images/footer-bg.png);
     max-width: 1600px;
     height: 412px;
     box-sizing: border-box;
