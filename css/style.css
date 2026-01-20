@@ -214,7 +214,7 @@ body.open-sans {
 }
 
 .header-button-section-btn1 a:hover {
-    box-shadow: 0px 0px 10px 0px;
+    box-shadow: 0px 0px 15px 0px;
     transition: all 0.5s ease;
 }
 
@@ -301,6 +301,7 @@ body.open-sans {
     border: 2px solid green;
     transition: all 0.5px ease cubic-bezier(0.075, 0.82, 0.165, 1);
     padding: 5px 5px 5px 5px;
+    border-radius: 8px;
 }
 
 .header-main-content-end-Sceound-card-item h1 {
