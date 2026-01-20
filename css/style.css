@@ -142,6 +142,8 @@ body.open-sans {
     padding-bottom: 101px;
 }
 
+
+
 .hero-logo-image {
     background-image: url("../images/hero-circle.png");
     background-repeat: no-repeat;
@@ -563,7 +565,8 @@ body.open-sans {
     justify-content: center;
 
 }
-.Featured-Episodes-section-card-a-content a{
+
+.Featured-Episodes-section-card-a-content a {
     border: 0.5px solid white;
     padding: 10px;
     border-radius: 50%;
@@ -624,14 +627,15 @@ body.open-sans {
         padding: 40px;
         border-radius: 12px;
     }
+
     .Featured-Episodes-section-card-a-hero-img {
-    display: flex;
-    gap: 24px;
-    background-color: #351165;
-    padding: 40px;
-    border-radius: 12px;
-    margin: -15px;
-}
+        display: flex;
+        gap: 24px;
+        background-color: #351165;
+        padding: 40px;
+        border-radius: 12px;
+        margin: -15px;
+    }
 
 
 
@@ -759,14 +763,15 @@ body.open-sans {
 
 /* footer  */
 
-#footer {
-    background: url(../images/footer-bg.png);
-    max-width: 1600px;
+/* #footer {
+    
     height: 412px;
     box-sizing: border-box;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} */
 
 .footer-content {
     display: flex;
@@ -774,11 +779,16 @@ body.open-sans {
     align-items: center;
     justify-content: center;
     padding: 120px;
+    background: url(../images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .footer-content-links {
     display: flex;
     gap: 40px;
+    cursor: pointer;
 }
 
 .footer-content-links p {
@@ -790,8 +800,31 @@ body.open-sans {
 
 .footer-content p {
     margin-top: 32px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .footer-content-spen {
     color: tomato;
+}
+
+@media (max-width: 576px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 40px 20px;
+
+        background-image: url("../images/footer-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        min-height: 300px;
+        width: 100%;
+        text-align: center;
+    }
 }
